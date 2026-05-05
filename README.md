@@ -1,6 +1,3 @@
-Here's the complete, properly formatted README — ready to paste directly into GitHub:
-
-```markdown
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Graph%20Search%20Engine&fontSize=42&fontColor=white&fontAlignY=42&fontAlign=50&desc=Uninformed%20Search%20Algorithm%20Library&descAlignY=62&descAlign=50&descSize=18&animation=fadeIn" alt="Header" />
 </p>
