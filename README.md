@@ -254,7 +254,7 @@ graph-search-engine/
 ---
 
 <p align="center">
-  <em>Built with precision — KSDRILL-SA</em>
+  <em>Built with precision — maluleke-ks</em>
 </p>
 
 <p align="center">
