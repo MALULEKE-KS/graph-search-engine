@@ -1,3 +1,6 @@
+Here's the complete, properly formatted README — ready to paste directly into GitHub:
+
+```markdown
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Graph%20Search%20Engine&fontSize=42&fontColor=white&fontAlignY=42&fontAlign=50&desc=Uninformed%20Search%20Algorithm%20Library&descAlignY=62&descAlign=50&descSize=18&animation=fadeIn" alt="Header" />
 </p>
@@ -54,8 +57,6 @@ Where basic implementations treat search algorithms as isolated functions, this 
 | | |
 | :--- | :--- |
 | **Project** | Graph Search Engine — Uninformed Search Library |
-| **Module** | CMPG 313 — Artificial Intelligence |
-| **Institution** | North-West University |
 | **Built by** | [Maluleke Kurhula Success](https://github.com/MALULEKE-KS) |
 | **Based in** | South Africa |
 | **Core Tech** | Python · BFS · DFS · IDDFS · NetworkX |
@@ -65,18 +66,19 @@ Where basic implementations treat search algorithms as isolated functions, this 
 ## Algorithms Implemented
 
 ### Breadth-First Search (BFS)
+
+```
 Explores level by level — all neighbors at current
 depth before moving deeper. Uses a queue (FIFO).
 
-A Level 0
-/
-B C Level 1
-/ \ /
-D E F G Level 2
+      A          Level 0
+     / \
+    B   C        Level 1
+   / \ / \
+  D  E F  G      Level 2
 
 BFS: A → B → C → D → E → F → G
-
-text
+```
 
 | Property | Value |
 | :--- | :--- |
@@ -87,18 +89,19 @@ text
 | **Space** | O(V) |
 
 ### Depth-First Search (DFS)
+
+```
 Explores deep first — follows each branch
 to its end before backtracking. Uses a stack (LIFO).
 
-A
-/
-B C
-/ \ /
-D E F G
+      A
+     / \
+    B   C
+   / \ / \
+  D  E F  G
 
 DFS: A → B → D → E → C → F → G
-
-text
+```
 
 | Property | Value |
 | :--- | :--- |
@@ -109,14 +112,15 @@ text
 | **Space** | O(V) |
 
 ### Iterative Deepening DFS (IDDFS)
+
+```
 Combines DFS memory efficiency with BFS completeness.
 Repeated depth-limited searches with increasing limits.
 
 Depth 0: [A]
 Depth 1: [A, B, C]
 Depth 2: [A, B, D, E, C, F, G]
-
-text
+```
 
 | Property | Value |
 | :--- | :--- |
@@ -147,8 +151,11 @@ pip install networkx matplotlib
 
 # Run the search engine
 python src/main.py
-Expected Output
-text
+```
+
+### Expected Output
+
+```
 ============================================================
 🔍 GRAPH SEARCH ENGINE — Uninformed Search Algorithms
 ============================================================
@@ -171,8 +178,13 @@ Depth: 2
 ============================================================
 ✅ Search Complete
 ============================================================
-Project Structure
-text
+```
+
+---
+
+## Project Structure
+
+```
 graph-search-engine/
 │
 ├── src/
@@ -194,30 +206,64 @@ graph-search-engine/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-Algorithm Comparison
-Algorithm	Complete	Optimal	Time	Space	Structure
-BFS	✅	✅	O(V+E)	O(V)	Queue
-DFS	❌	❌	O(V+E)	O(V)	Stack
-IDDFS	✅	✅	O(b^d)	O(d)	Recursion
-Engineering Philosophy
-Principle	Application
-Separation of Concerns	Each algorithm in its own module
-Type Safety	Full type hints throughout
-Error Handling	Input validation with clear messages
-Documentation	Docstrings on every function
-Visualization	Built-in graph rendering
-What I Can Build
-Industry	Applications
-AI/ML	Search algorithms, game playing, planning
-Networking	Network topology traversal
-Robotics	Path planning, navigation
-Game Development	Map exploration, enemy AI
-Web Crawling	Link discovery, site mapping
-Social Networks	Connection discovery, friend suggestions
-Connect With Me
-Portfolio	my-nextjs-portfolio.vercel.app
-Email	kurhula04s@gmail.com
-WhatsApp	wa.me/27640708649
-LinkedIn	linkedin.com/in/kurhula-success-maluleke
-GitHub	github.com/MALULEKE-KS
-<p align="center"> <em>Built with precision — KSDRILL-SA</em> </p><p align="center"> <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" alt="Footer wave" /> </p> 
+```
+
+---
+
+## Algorithm Comparison
+
+| Algorithm | Complete | Optimal | Time | Space | Structure |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| BFS | ✅ | ✅ | O(V+E) | O(V) | Queue |
+| DFS | ❌ | ❌ | O(V+E) | O(V) | Stack |
+| IDDFS | ✅ | ✅ | O(b^d) | O(d) | Recursion |
+
+---
+
+## Engineering Philosophy
+
+| Principle | Application |
+| :--- | :--- |
+| **Separation of Concerns** | Each algorithm in its own module |
+| **Type Safety** | Full type hints throughout |
+| **Error Handling** | Input validation with clear messages |
+| **Documentation** | Docstrings on every function |
+| **Visualization** | Built-in graph rendering |
+
+---
+
+## What I Can Build
+
+| Industry | Applications |
+| :--- | :--- |
+| **AI/ML** | Search algorithms, game playing, planning |
+| **Networking** | Network topology traversal |
+| **Robotics** | Path planning, navigation |
+| **Game Development** | Map exploration, enemy AI |
+| **Web Crawling** | Link discovery, site mapping |
+| **Social Networks** | Connection discovery, friend suggestions |
+
+---
+
+## Connect With Me
+
+| | |
+| :--- | :--- |
+| **Email** | [kurhula04s@gmail.com](mailto:kurhula04s@gmail.com) |
+| **WhatsApp** | [wa.me/27640708649](https://wa.me/27640708649) |
+| **LinkedIn** | [linkedin.com/in/kurhula-success-maluleke](https://za.linkedin.com/in/kurhula-success-maluleke-32153231a) |
+| **GitHub** | [github.com/MALULEKE-KS](https://github.com/MALULEKE-KS) |
+
+---
+
+<p align="center">
+  <em>Built with precision — KSDRILL-SA</em>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" alt="Footer wave" />
+</p>
+
+---
+
+Now go to your repo, click the pencil icon on README, delete everything, paste this, and commit! 🚀
